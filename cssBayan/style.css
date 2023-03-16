@@ -69,3 +69,68 @@ span {
     opacity: 1;
     transition: all 1s;
 }
+
+@media (hover: hover) {
+    .img-plus {
+        opacity: 0;
+    }
+    .content:hover .img-plus {
+        transition: opacity 0.5s;
+        opacity: 1;
+    }
+
+    .mem:hover .mem-img {
+        height: 40vh;
+        opacity: 1;
+        transition: all 1s;
+    }
+}
+
+@media (max-width: 2180px) {
+    .content {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 1920px) {
+    .content {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .content {
+        width: 70vw;
+    }
+}
+@media (max-width: 840px) {
+    .content {
+        width: 80vw;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+
+    span {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 620px) {
+    .mem:hover .mem-img {
+        height: 30vh;
+    }
+
+    .content input:checked + label > .img-box > .mem-img {
+        height: 30vh;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    span {
+        font-size: 1rem;
+    }
+}
