@@ -23,7 +23,7 @@ span {
     display: flex;
     padding: 15px 20px;
     width: 100%;
-    z-index: 100;
+    z-index: 80;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
